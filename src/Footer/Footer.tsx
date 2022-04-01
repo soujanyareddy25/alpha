@@ -8,11 +8,9 @@ import {
 
 function Footer() {
   return (
-    <Box>
-      <Container>
-        <CopyRight>CRDA © 2012 - 2022</CopyRight>
-      </Container>
-    </Box>
+    <footer>
+      <CopyRight>CRDA © 2012 - 2022</CopyRight>
+    </footer>
   );
 }
 

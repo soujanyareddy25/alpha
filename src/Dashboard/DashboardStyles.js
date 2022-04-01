@@ -4,5 +4,6 @@ export const Content = styled.div`
 display: flex;
 flex-direction: column;
 text-align: left;
-margin-left: 60px;
+margin: 0 60px;
+align-items: center;
 `;

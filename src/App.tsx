@@ -17,12 +17,11 @@ function App() {
           <Route
             path="*"
             element={
-              <main style={{ padding: "1rem" }}>
-                <p>There's nothing here!</p>
-                <nav>
-                  <Link to="/">Dashboard</Link>
-                </nav>
-              </main>
+              <div >
+                <div className="middle">
+                  <h1>COMING SOON.. Happy Friday!!</h1>
+                </div>
+              </div>
             }
           />
         </Routes>

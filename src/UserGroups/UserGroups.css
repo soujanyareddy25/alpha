@@ -1,3 +1,19 @@
 .LinkColor {
   color: #FFFFFF;
 }
+.Padding{
+  padding-bottom: 20px;
+}
+.BreadCrumbStyle{
+  padding:10px 5px;
+  margin-bottom: 20px;
+  background-color: rgba(0,0,0,.03);
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.BreadCrumbStyle ol{
+  margin-bottom: 0;
+}
+.BreadCrumbStyle ol a, .BreadCrumbStyle ol a:focus, .BreadCrumbStyle ol a:hover, .BreadCrumbStyle ol a:visited, .BreadCrumbStyle ol a:link, .BreadCrumbStyle ol a:active {
+  text-decoration: none;
+  color: rgb(33, 37, 41);
+}

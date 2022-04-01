@@ -37,11 +37,15 @@ export const Container = styled.div`
 // `;
 
 export const CopyRight = styled.div`
-padding:30px 0;
-font-size:14px;
-text-align: center;
-color: rgb(33, 37, 41);
-`;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding:30px 0;
+	font-size:14px;
+	text-align: center;
+	color: rgb(33, 37, 41);
+	`;
 
 
 // export const FooterLink = styled.a`
